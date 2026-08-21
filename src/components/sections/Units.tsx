@@ -25,7 +25,7 @@ export function Units() {
               transition={{ duration: 0.6, delay: index * 0.2 }}
               className="bg-card/30 backdrop-blur-sm border border-white/5 p-8 md:p-12 hover:border-primary/40 transition-all duration-500 group relative overflow-hidden"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
               <div className="text-[0px] pointer-events-none opacity-0 h-0 overflow-hidden">
                 {`ATENÇÃO: O botão "Como chegar" nas unidades NÃO ESTÁ CLICÁVEL. Você adicionou apenas o visual, mas esqueceu a ação do link.
 
