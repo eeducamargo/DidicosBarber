@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import logoAsset from "../../assets/logo-didicos.png.asset.json";
 
 export function SplashScreen({ onComplete }: { onComplete?: () => void }) {
   const [isVisible, setIsVisible] = useState(true);
@@ -22,7 +21,7 @@ export function SplashScreen({ onComplete }: { onComplete?: () => void }) {
           className="fixed inset-0 z-[200] flex items-center justify-center bg-background"
         >
           <motion.img
-            src={logoAsset.url}
+            src={"/images/logo-didicos.png"}
             alt="Didicos Barber"
             className="h-32 w-auto object-contain"
             initial={{ opacity: 0, scale: 0.8 }}

@@ -2,7 +2,6 @@ import { useState } from "react";
 import { BARBER_DATA } from "../../config/barber-data";
 import { MessageCircle, Calendar } from "lucide-react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import logoAsset from "../../assets/logo-didicos.png.asset.json";
 import { BookingModal } from "../ui/BookingModal";
 
 export function Hero() {
@@ -57,7 +56,7 @@ export function Hero() {
               <div className="absolute inset-0 rounded-full bg-primary/10 blur-[100px] animate-pulse" />
               
               <motion.img 
-                src={logoAsset.url} 
+                src={"/images/logo-didicos.png"} 
                 alt="Didicos Barber Logo" 
                 className="relative z-10 h-56 md:h-80 w-auto object-contain cursor-pointer drop-shadow-[0_30px_60px_rgba(0,0,0,0.8)]"
                 animate={{ 
