@@ -59,9 +59,9 @@ function Index() {
         <Header />
         <main>
           <Hero />
-          <About />
           <Units />
           <Services />
+          <About />
           <Testimonials />
         </main>
         <Footer />
