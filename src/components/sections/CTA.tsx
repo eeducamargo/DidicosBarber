@@ -13,10 +13,10 @@ export function CTA() {
     <section className="py-24 px-6 relative overflow-hidden">
       <div className="absolute inset-4 md:inset-8 z-0 rounded-3xl overflow-hidden pointer-events-none">
         <div 
-          className="absolute inset-0 bg-cover bg-center grayscale opacity-20 scale-105"
+          className="absolute inset-0 bg-cover bg-center grayscale opacity-35 scale-105"
           style={{ backgroundImage: `url("${ambCartao.url}")` }}
         />
-        <div className="absolute inset-0 bg-background/85" />
+        <div className="absolute inset-0 bg-background/70" />
         <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
       </div>
 

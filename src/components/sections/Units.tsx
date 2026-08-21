@@ -12,9 +12,9 @@ export function Units() {
           src={ambFachada.url}
           alt=""
           aria-hidden="true"
-          className="w-full h-full object-cover opacity-20 grayscale"
+          className="w-full h-full object-cover opacity-35 grayscale"
         />
-        <div className="absolute inset-0 bg-background/80" />
+        <div className="absolute inset-0 bg-background/60" />
         <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
       </div>
       <div className="max-w-7xl mx-auto relative z-10">
