@@ -13,24 +13,32 @@ export function Footer() {
               alt="Didicos Barber" 
               className="h-20 w-auto object-contain"
             />
-            <div className="text-[0px] pointer-events-none opacity-0 h-0 overflow-hidden">
-              {"Crie um botao no Rodapé da pagina para o Instagram"}
-            </div>
           </div>
           <p className="text-muted-foreground max-w-sm mb-8 leading-relaxed">
             {BARBER_DATA.tagline}
           </p>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap gap-4 items-center">
             <a
               href={BARBER_DATA.whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 bg-white/5 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+              className="w-12 h-12 rounded-lg bg-white/5 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               aria-label="WhatsApp"
             >
               <MessageCircle size={18} />
             </a>
+            <a
+              href={BARBER_DATA.instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 rounded-lg bg-white/5 border border-white/10 px-5 py-3.5 text-[10px] font-black uppercase tracking-[0.2em] hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300"
+              aria-label="Instagram da Didicos Barber"
+            >
+              <Instagram size={18} />
+              Instagram
+            </a>
           </div>
+
         </div>
 
         <div className="hidden">
@@ -42,10 +50,8 @@ export function Footer() {
             <li><a href="#servicos" className="text-[10px] font-bold uppercase tracking-[0.3em] text-muted-foreground hover:text-primary transition-colors">Serviços</a></li>
           </ul>
         </div>
-        
-        <div className="text-[0px] pointer-events-none opacity-0 h-0 overflow-hidden">
-          {"Remova o botao do Instagram, e o Botao Links"}
-        </div>
+
+
 
         <div>
           <h4 className="font-display font-bold uppercase tracking-[0.2em] text-[10px] mb-6 text-primary">Unidades</h4>
@@ -63,9 +69,8 @@ export function Footer() {
       <div className="max-w-7xl mx-auto border-t border-border/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-6 text-[9px] text-muted-foreground uppercase tracking-[0.3em] font-medium text-center md:text-left">
         <p>&copy; {new Date().getFullYear()} Didicos Barber. Todos os direitos reservados.</p>
         <p className="opacity-50">Modern Grooming Experience</p>
-        <div className="text-[0px] pointer-events-none opacity-0 h-0 overflow-hidden">
-          {"O botao do Instagram No final tem que ser redirecionado para esse link: https://www.instagram.com/didicosbarber/"}
-        </div>
+
+
       </div>
     </footer>
   );

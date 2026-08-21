@@ -3,12 +3,25 @@ import { BARBER_DATA } from "../../config/barber-data";
 import { Clock } from "lucide-react";
 import { motion } from "framer-motion";
 import { BookingModal } from "../ui/BookingModal";
+import ambBarba from "@/assets/amb-barba.png.asset.json";
 
 export function Services() {
   const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
   return (
-    <section id="servicos" className="py-24 px-6 bg-secondary/20">
-      <div className="max-w-7xl mx-auto">
+    <section id="servicos" className="py-24 px-6 bg-secondary/20 relative overflow-hidden">
+      {/* Fundo atmosférico sutil: detalhe do atendimento */}
+      <div className="absolute inset-4 md:inset-8 rounded-3xl overflow-hidden pointer-events-none">
+        <img
+          src={ambBarba.url}
+          alt=""
+          aria-hidden="true"
+          className="w-full h-full object-cover opacity-[0.18] grayscale"
+        />
+        <div className="absolute inset-0 bg-background/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
+      </div>
+      <div className="max-w-7xl mx-auto relative z-10">
+
         <div className="text-center mb-16">
           <h4 className="text-primary font-display font-bold uppercase tracking-[0.3em] text-[10px] mb-4">Nossos Serviços</h4>
           <h2 className="text-4xl md:text-5xl font-display font-bold uppercase tracking-tight">O que fazemos de melhor</h2>

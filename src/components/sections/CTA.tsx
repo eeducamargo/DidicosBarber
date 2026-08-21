@@ -3,19 +3,23 @@ import { motion } from "framer-motion";
 import { Calendar } from "lucide-react";
 import { useState } from "react";
 import { BookingModal } from "../ui/BookingModal";
+import ambCartao from "@/assets/amb-cartao.png.asset.json";
+
 
 export function CTA() {
   const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
 
   return (
     <section className="py-24 px-6 relative overflow-hidden">
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-4 md:inset-8 z-0 rounded-3xl overflow-hidden pointer-events-none">
         <div 
-          className="absolute inset-0 bg-cover bg-center grayscale opacity-20 scale-110"
-          style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?q=80&w=2070&auto=format&fit=crop")' }}
+          className="absolute inset-0 bg-cover bg-center grayscale opacity-20 scale-105"
+          style={{ backgroundImage: `url("${ambCartao.url}")` }}
         />
-        <div className="absolute inset-0 bg-background/90" />
+        <div className="absolute inset-0 bg-background/85" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
       </div>
+
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <motion.div
