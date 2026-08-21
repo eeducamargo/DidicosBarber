@@ -28,6 +28,12 @@ import corteEmbu2 from "@/assets/corte-embu-2.png.asset.json";
 import corteEmbu3 from "@/assets/corte-embu-3.png.asset.json";
 import corteEmbu4 from "@/assets/corte-embu-4.png.asset.json";
 import corteEmbu5 from "@/assets/corte-embu-5.png.asset.json";
+import cortePortal6 from "@/assets/corte-portal-6.png.asset.json";
+import cortePortal7 from "@/assets/corte-portal-7.png.asset.json";
+import cortePortal8 from "@/assets/corte-portal-8.png.asset.json";
+import corteEmbu6 from "@/assets/corte-embu-6.png.asset.json";
+import corteEmbu7 from "@/assets/corte-embu-7.png.asset.json";
+import corteEmbu8 from "@/assets/corte-embu-8.png.asset.json";
 
 const fotosMorumbi = [
   cortePortal1.url,
@@ -35,6 +41,9 @@ const fotosMorumbi = [
   cortePortal3.url,
   cortePortal4.url,
   cortePortal5.url,
+  cortePortal6.url,
+  cortePortal7.url,
+  cortePortal8.url,
   morumbi6.url,
   morumbi7.url,
   morumbi8.url,
@@ -51,6 +60,9 @@ const fotosEmbu = [
   corteEmbu3.url,
   corteEmbu4.url,
   corteEmbu5.url,
+  corteEmbu6.url,
+  corteEmbu7.url,
+  corteEmbu8.url,
   embu1.url,
   embu2.url,
   embu3.url,
