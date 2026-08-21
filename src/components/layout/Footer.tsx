@@ -50,10 +50,8 @@ export function Footer() {
             <li><a href="#servicos" className="text-[10px] font-bold uppercase tracking-[0.3em] text-muted-foreground hover:text-primary transition-colors">Serviços</a></li>
           </ul>
         </div>
-        
-        <div className="text-[0px] pointer-events-none opacity-0 h-0 overflow-hidden">
-          {"Remova o botao do Instagram, e o Botao Links"}
-        </div>
+
+
 
         <div>
           <h4 className="font-display font-bold uppercase tracking-[0.2em] text-[10px] mb-6 text-primary">Unidades</h4>
