@@ -68,7 +68,7 @@ function Carousel({ images }: { images: string[] }) {
 
 export function About() {
   return (
-    <section id="sobre" className="py-32 px-6 bg-[#0a0a0a] relative overflow-hidden">
+    <section id="cortes" className="py-32 px-6 bg-[#0a0a0a] relative overflow-hidden">
       {/* Hidden literal text as requested */}
       <span className="hidden pointer-events-none select-none">
         {"Diminua a parte do carrossel"}
