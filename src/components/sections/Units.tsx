@@ -1,15 +1,25 @@
 import { BARBER_DATA } from "../../config/barber-data";
 import { MapPin, Clock, Phone, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
+import ambFachada from "@/assets/amb-fachada.png.asset.json";
 
 export function Units() {
   return (
-    <section id="unidades" className="py-24 px-6">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-[0px] pointer-events-none opacity-0 h-0 overflow-hidden">
-          {"Crie um botao no Como chegar na parte das Unidades"}
-        </div>
+    <section id="unidades" className="py-24 px-6 relative overflow-hidden">
+      {/* Fundo atmosférico sutil: fachada da barbearia */}
+      <div className="absolute inset-4 md:inset-8 rounded-3xl overflow-hidden pointer-events-none">
+        <img
+          src={ambFachada.url}
+          alt=""
+          aria-hidden="true"
+          className="w-full h-full object-cover opacity-20 grayscale"
+        />
+        <div className="absolute inset-0 bg-background/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
+      </div>
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
+
           <h4 className="text-primary font-display font-bold uppercase tracking-[0.3em] text-[10px] mb-4">Localização</h4>
           <h2 className="text-4xl md:text-5xl font-display font-bold uppercase tracking-tight">Encontre a Didicos Barber</h2>
           <div className="w-20 h-1 bg-primary mx-auto mt-6" />
