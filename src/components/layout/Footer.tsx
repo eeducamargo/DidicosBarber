@@ -1,8 +1,12 @@
 import { BARBER_DATA } from "../../config/barber-data";
 import { Instagram, MessageCircle, MapPin, Calendar } from "lucide-react";
 import logoAsset from "../../assets/logo-didicos.png.asset.json";
+import { useState } from "react";
+import { BookingModal } from "../ui/BookingModal";
 
 export function Footer() {
+  const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
+
   return (
     <footer className="bg-[#0a0a0a] border-t border-white/10 pt-16 pb-8 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
@@ -86,15 +90,13 @@ export function Footer() {
               </a>
             </li>
             <li>
-              <a
-                href={BARBER_DATA.bookingUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={() => setIsBookingModalOpen(true)}
                 className="inline-flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors"
               >
                 <Calendar size={16} className="text-primary shrink-0" />
                 Agendar Horário
-              </a>
+              </button>
             </li>
           </ul>
         </div>
@@ -115,6 +117,11 @@ export function Footer() {
           </a>
         </p>
       </div>
+
+      <BookingModal
+        isOpen={isBookingModalOpen}
+        onClose={() => setIsBookingModalOpen(false)}
+      />
     </footer>
   );
 }
