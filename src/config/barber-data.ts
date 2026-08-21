@@ -12,11 +12,11 @@ export const BARBER_DATA = {
     {
       id: "embu",
       name: "Embu-Guaçu",
-      address: "Rua Independência, 90 - Centro, Embu-Guaçu - SP",
+      address: "Rua Independência, 90 - 06900-140 Centro - Embu-Guaçu/SP",
       openingHours: "Domingo: 09h às 15h | Segunda a Sábado: 09h às 20h",
       whatsappUrl: "https://wa.me/5511996408278",
       bookingUrl: "https://sites.appbarber.com.br/didicosbarber-tml7",
-      mapsUrl: "https://www.google.com/maps/search/?api=1&query=Rua+independência,+90+-+Centro,+Embu-Guaçu+-+SP",
+      mapsUrl: "https://www.google.com/maps/search/?api=1&query=Rua+Independencia+90+Centro+Embu+Guacu+SP",
     },
     {
       id: "morumbi",
