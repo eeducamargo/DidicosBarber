@@ -1,5 +1,5 @@
 import { BARBER_DATA } from "../../config/barber-data";
-import { MapPin, Clock, Phone, Navigation, Calendar } from "lucide-react";
+import { MapPin, Clock, Phone, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 
 export function Units() {
@@ -83,7 +83,7 @@ Regra: Não use um componente customizado <Button> se ele não suportar o redire
                   rel="noopener noreferrer"
                   className="w-full bg-secondary text-foreground border border-border/50 px-6 py-4 rounded-none text-[10px] font-black uppercase tracking-[0.2em] hover:bg-secondary/80 transition-all flex items-center justify-center gap-2"
                 >
-                  <Navigation size={14} />
+                  <MapPin size={14} />
                   Como Chegar
                 </a>
               </div>
