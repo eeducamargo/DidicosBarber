@@ -90,15 +90,13 @@ export function Footer() {
               </a>
             </li>
             <li>
-              <a
-                href={BARBER_DATA.bookingUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={() => setIsBookingModalOpen(true)}
                 className="inline-flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors"
               >
                 <Calendar size={16} className="text-primary shrink-0" />
                 Agendar Horário
-              </a>
+              </button>
             </li>
           </ul>
         </div>
@@ -119,6 +117,11 @@ export function Footer() {
           </a>
         </p>
       </div>
+
+      <BookingModal
+        isOpen={isBookingModalOpen}
+        onClose={() => setIsBookingModalOpen(false)}
+      />
     </footer>
   );
 }
