@@ -76,9 +76,9 @@ export function About() {
           src={ambInterior.url}
           alt=""
           aria-hidden="true"
-          className="w-full h-full object-cover opacity-20 grayscale"
+          className="w-full h-full object-cover opacity-35 grayscale"
         />
-        <div className="absolute inset-0 bg-[#0a0a0a]/80" />
+        <div className="absolute inset-0 bg-[#0a0a0a]/60" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-transparent to-[#0a0a0a]" />
       </div>
 
