@@ -18,9 +18,23 @@ import embu5 from "@/assets/embu-5.png.asset.json";
 import embu6 from "@/assets/embu-6.png.asset.json";
 import embu7 from "@/assets/embu-7.png.asset.json";
 import embu8 from "@/assets/embu-8.png.asset.json";
+import cortePortal1 from "@/assets/corte-portal-1.png.asset.json";
+import cortePortal2 from "@/assets/corte-portal-2.png.asset.json";
+import cortePortal3 from "@/assets/corte-portal-3.png.asset.json";
+import cortePortal4 from "@/assets/corte-portal-4.png.asset.json";
+import cortePortal5 from "@/assets/corte-portal-5.png.asset.json";
+import corteEmbu1 from "@/assets/corte-embu-1.png.asset.json";
+import corteEmbu2 from "@/assets/corte-embu-2.png.asset.json";
+import corteEmbu3 from "@/assets/corte-embu-3.png.asset.json";
+import corteEmbu4 from "@/assets/corte-embu-4.png.asset.json";
+import corteEmbu5 from "@/assets/corte-embu-5.png.asset.json";
 
-// The user wants to replace all images with the 8 new ones uploaded
 const fotosMorumbi = [
+  cortePortal1.url,
+  cortePortal2.url,
+  cortePortal3.url,
+  cortePortal4.url,
+  cortePortal5.url,
   morumbi6.url,
   morumbi7.url,
   morumbi8.url,
@@ -32,6 +46,11 @@ const fotosMorumbi = [
 ];
 
 const fotosEmbu = [
+  corteEmbu1.url,
+  corteEmbu2.url,
+  corteEmbu3.url,
+  corteEmbu4.url,
+  corteEmbu5.url,
   embu1.url,
   embu2.url,
   embu3.url,
