@@ -2,35 +2,19 @@ import React from "react";
 import { motion } from "framer-motion";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import morumbi6 from "@/assets/morumbi-6.png.asset.json";
-import morumbi7 from "@/assets/morumbi-7.png.asset.json";
-import morumbi8 from "@/assets/morumbi-8.png.asset.json";
-import morumbi9 from "@/assets/morumbi-9.png.asset.json";
-import morumbi10 from "@/assets/morumbi-10.png.asset.json";
-import morumbi11 from "@/assets/morumbi-11.png.asset.json";
-import morumbi12 from "@/assets/morumbi-12.png.asset.json";
-import morumbi13 from "@/assets/morumbi-13.png.asset.json";
-import embu1 from "@/assets/embu-1.png.asset.json";
-import embu2 from "@/assets/embu-2.png.asset.json";
-import embu3 from "@/assets/embu-3.png.asset.json";
-import embu4 from "@/assets/embu-4.png.asset.json";
-import embu5 from "@/assets/embu-5.png.asset.json";
-import embu6 from "@/assets/embu-6.png.asset.json";
-import embu7 from "@/assets/embu-7.png.asset.json";
-import embu8 from "@/assets/embu-8.png.asset.json";
 import cortePortal1 from "@/assets/corte-portal-1.png.asset.json";
 import cortePortal2 from "@/assets/corte-portal-2.png.asset.json";
 import cortePortal3 from "@/assets/corte-portal-3.png.asset.json";
 import cortePortal4 from "@/assets/corte-portal-4.png.asset.json";
 import cortePortal5 from "@/assets/corte-portal-5.png.asset.json";
+import cortePortal6 from "@/assets/corte-portal-6.png.asset.json";
+import cortePortal7 from "@/assets/corte-portal-7.png.asset.json";
+import cortePortal8 from "@/assets/corte-portal-8.png.asset.json";
 import corteEmbu1 from "@/assets/corte-embu-1.png.asset.json";
 import corteEmbu2 from "@/assets/corte-embu-2.png.asset.json";
 import corteEmbu3 from "@/assets/corte-embu-3.png.asset.json";
 import corteEmbu4 from "@/assets/corte-embu-4.png.asset.json";
 import corteEmbu5 from "@/assets/corte-embu-5.png.asset.json";
-import cortePortal6 from "@/assets/corte-portal-6.png.asset.json";
-import cortePortal7 from "@/assets/corte-portal-7.png.asset.json";
-import cortePortal8 from "@/assets/corte-portal-8.png.asset.json";
 import corteEmbu6 from "@/assets/corte-embu-6.png.asset.json";
 import corteEmbu7 from "@/assets/corte-embu-7.png.asset.json";
 import corteEmbu8 from "@/assets/corte-embu-8.png.asset.json";
@@ -44,14 +28,6 @@ const fotosMorumbi = [
   cortePortal6.url,
   cortePortal7.url,
   cortePortal8.url,
-  morumbi6.url,
-  morumbi7.url,
-  morumbi8.url,
-  morumbi9.url,
-  morumbi10.url,
-  morumbi11.url,
-  morumbi12.url,
-  morumbi13.url,
 ];
 
 const fotosEmbu = [
@@ -63,14 +39,6 @@ const fotosEmbu = [
   corteEmbu6.url,
   corteEmbu7.url,
   corteEmbu8.url,
-  embu1.url,
-  embu2.url,
-  embu3.url,
-  embu4.url,
-  embu5.url,
-  embu6.url,
-  embu7.url,
-  embu8.url,
 ];
 
 function Carousel({ images }: { images: string[] }) {
