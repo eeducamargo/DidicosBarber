@@ -1,5 +1,5 @@
 import { BARBER_DATA } from "../../config/barber-data";
-import { MapPin, Clock, Phone, Navigation, Calendar } from "lucide-react";
+import { MapPin, Clock, Phone, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 
 export function Units() {
