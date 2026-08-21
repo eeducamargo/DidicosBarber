@@ -11,7 +11,7 @@ export function Footer() {
             <img 
               src={logoAsset.url} 
               alt="Didicos Barber" 
-              className="h-20 w-auto object-contain brightness-0 invert opacity-40 hover:opacity-100 transition-opacity duration-500"
+              className="h-20 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-500"
             />
             <div className="text-[0px] pointer-events-none opacity-0 h-0 overflow-hidden">
               {"Crie um botao no Rodapé da pagina para o Instagram"}
