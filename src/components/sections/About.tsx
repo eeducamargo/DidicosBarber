@@ -68,10 +68,18 @@ function Carousel({ images }: { images: string[] }) {
 export function About() {
   return (
     <section id="cortes" className="py-32 px-6 bg-[#0a0a0a] relative overflow-hidden">
-      {/* Hidden literal text as requested */}
-      <span className="hidden pointer-events-none select-none">
-        {"Diminua a parte do carrossel"}
-      </span>
+      {/* Fundo atmosférico sutil: interior da barbearia */}
+      <div className="absolute inset-4 md:inset-8 rounded-3xl overflow-hidden pointer-events-none">
+        <img
+          src={ambInterior.url}
+          alt=""
+          aria-hidden="true"
+          className="w-full h-full object-cover opacity-20 grayscale"
+        />
+        <div className="absolute inset-0 bg-[#0a0a0a]/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-transparent to-[#0a0a0a]" />
+      </div>
+
 
       <div className="max-w-7xl mx-auto space-y-24">
         {/* Unidade 1 */}
