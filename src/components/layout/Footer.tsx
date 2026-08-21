@@ -69,9 +69,8 @@ export function Footer() {
       <div className="max-w-7xl mx-auto border-t border-border/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-6 text-[9px] text-muted-foreground uppercase tracking-[0.3em] font-medium text-center md:text-left">
         <p>&copy; {new Date().getFullYear()} Didicos Barber. Todos os direitos reservados.</p>
         <p className="opacity-50">Modern Grooming Experience</p>
-        <div className="text-[0px] pointer-events-none opacity-0 h-0 overflow-hidden">
-          {"O botao do Instagram No final tem que ser redirecionado para esse link: https://www.instagram.com/didicosbarber/"}
-        </div>
+
+
       </div>
     </footer>
   );
