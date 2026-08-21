@@ -3,7 +3,6 @@ import { BARBER_DATA } from "../../config/barber-data";
 import { Clock } from "lucide-react";
 import { motion } from "framer-motion";
 import { BookingModal } from "../ui/BookingModal";
-import ambBarba from "@/assets/amb-barba.png.asset.json";
 
 export function Services() {
   const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
@@ -12,7 +11,7 @@ export function Services() {
       {/* Fundo atmosférico sutil: detalhe do atendimento */}
       <div className="absolute inset-4 md:inset-8 rounded-3xl overflow-hidden pointer-events-none">
         <img
-          src={ambBarba.url}
+          src={"/images/amb-barba.png"}
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover opacity-30 grayscale"

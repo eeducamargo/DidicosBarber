@@ -1,6 +1,5 @@
 import { BARBER_DATA } from "../../config/barber-data";
 import { Instagram, MessageCircle, MapPin, Calendar } from "lucide-react";
-import logoAsset from "../../assets/logo-didicos.png.asset.json";
 import { useState } from "react";
 import { BookingModal } from "../ui/BookingModal";
 
@@ -14,7 +13,7 @@ export function Footer() {
         <div className="space-y-6">
           <div>
             <img
-              src={logoAsset.url}
+              src={"/images/logo-didicos.png"}
               alt="Barbearia Dídico's"
               className="h-20 w-auto object-contain"
             />

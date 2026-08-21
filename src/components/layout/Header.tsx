@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { BARBER_DATA } from "../../config/barber-data";
 import { cn } from "../../lib/utils";
-import logoAsset from "../../assets/logo-didicos.png.asset.json";
 import { BookingModal } from "../ui/BookingModal";
 
 export function Header() {
@@ -42,7 +41,7 @@ export function Header() {
           <div className="absolute inset-0 z-0 opacity-0 group-hover:opacity-40 transition-opacity duration-500 bg-gradient-to-tr from-black to-transparent" />
           
           <img 
-            src={logoAsset.url} 
+            src={"/images/logo-didicos.png"} 
             alt="Didicos Barber" 
             className="relative z-10 h-10 md:h-12 w-auto object-contain transition-all duration-700 group-hover:scale-105 group-hover:brightness-110 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]"
           />

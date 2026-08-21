@@ -2,45 +2,28 @@ import React from "react";
 import { motion } from "framer-motion";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import cortePortal1 from "@/assets/corte-portal-1.png.asset.json";
-import cortePortal2 from "@/assets/corte-portal-2.png.asset.json";
-import cortePortal3 from "@/assets/corte-portal-3.png.asset.json";
-import cortePortal4 from "@/assets/corte-portal-4.png.asset.json";
-import cortePortal5 from "@/assets/corte-portal-5.png.asset.json";
-import cortePortal6 from "@/assets/corte-portal-6.png.asset.json";
-import cortePortal7 from "@/assets/corte-portal-7.png.asset.json";
-import cortePortal8 from "@/assets/corte-portal-8.png.asset.json";
-import corteEmbu1 from "@/assets/corte-embu-1.png.asset.json";
-import corteEmbu2 from "@/assets/corte-embu-2.png.asset.json";
-import corteEmbu3 from "@/assets/corte-embu-3.png.asset.json";
-import corteEmbu4 from "@/assets/corte-embu-4.png.asset.json";
-import corteEmbu5 from "@/assets/corte-embu-5.png.asset.json";
-import corteEmbu6 from "@/assets/corte-embu-6.png.asset.json";
-import corteEmbu7 from "@/assets/corte-embu-7.png.asset.json";
-import corteEmbu8 from "@/assets/corte-embu-8.png.asset.json";
-import ambInterior from "@/assets/amb-interior.png.asset.json";
 
 
 const fotosMorumbi = [
-  cortePortal1.url,
-  cortePortal2.url,
-  cortePortal3.url,
-  cortePortal4.url,
-  cortePortal5.url,
-  cortePortal6.url,
-  cortePortal7.url,
-  cortePortal8.url,
+  "/images/corte-portal-1.png",
+  "/images/corte-portal-2.png",
+  "/images/corte-portal-3.png",
+  "/images/corte-portal-4.png",
+  "/images/corte-portal-5.png",
+  "/images/corte-portal-6.png",
+  "/images/corte-portal-7.png",
+  "/images/corte-portal-8.png",
 ];
 
 const fotosEmbu = [
-  corteEmbu1.url,
-  corteEmbu2.url,
-  corteEmbu3.url,
-  corteEmbu4.url,
-  corteEmbu5.url,
-  corteEmbu6.url,
-  corteEmbu7.url,
-  corteEmbu8.url,
+  "/images/corte-embu-1.png",
+  "/images/corte-embu-2.png",
+  "/images/corte-embu-3.png",
+  "/images/corte-embu-4.png",
+  "/images/corte-embu-5.png",
+  "/images/corte-embu-6.png",
+  "/images/corte-embu-7.png",
+  "/images/corte-embu-8.png",
 ];
 
 function Carousel({ images }: { images: string[] }) {
@@ -73,7 +56,7 @@ export function About() {
       {/* Fundo atmosférico sutil: interior da barbearia */}
       <div className="absolute inset-4 md:inset-8 rounded-3xl overflow-hidden pointer-events-none">
         <img
-          src={ambInterior.url}
+          src={"/images/amb-interior.png"}
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover opacity-35 grayscale"

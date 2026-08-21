@@ -1,7 +1,6 @@
 import { BARBER_DATA } from "../../config/barber-data";
 import { MapPin, Clock, Phone, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
-import ambFachada from "@/assets/amb-fachada.png.asset.json";
 
 export function Units() {
   return (
@@ -9,7 +8,7 @@ export function Units() {
       {/* Fundo atmosférico sutil: fachada da barbearia */}
       <div className="absolute inset-4 md:inset-8 rounded-3xl overflow-hidden pointer-events-none">
         <img
-          src={ambFachada.url}
+          src={"/images/amb-fachada.png"}
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover opacity-35 grayscale"

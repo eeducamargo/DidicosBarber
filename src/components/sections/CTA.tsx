@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { Calendar } from "lucide-react";
 import { useState } from "react";
 import { BookingModal } from "../ui/BookingModal";
-import ambCartao from "@/assets/amb-cartao.png.asset.json";
 
 
 export function CTA() {
@@ -14,7 +13,7 @@ export function CTA() {
       <div className="absolute inset-4 md:inset-8 z-0 rounded-3xl overflow-hidden pointer-events-none">
         <div 
           className="absolute inset-0 bg-cover bg-center grayscale opacity-35 scale-105"
-          style={{ backgroundImage: `url("${ambCartao.url}")` }}
+          style={{ backgroundImage: `url("${"/images/amb-cartao.png"}")` }}
         />
         <div className="absolute inset-0 bg-background/70" />
         <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
