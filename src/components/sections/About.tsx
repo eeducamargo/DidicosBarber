@@ -18,6 +18,8 @@ import corteEmbu5 from "@/assets/corte-embu-5.png.asset.json";
 import corteEmbu6 from "@/assets/corte-embu-6.png.asset.json";
 import corteEmbu7 from "@/assets/corte-embu-7.png.asset.json";
 import corteEmbu8 from "@/assets/corte-embu-8.png.asset.json";
+import ambInterior from "@/assets/amb-interior.png.asset.json";
+
 
 const fotosMorumbi = [
   cortePortal1.url,
