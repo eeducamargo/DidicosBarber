@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
+import { AnimatePresence } from "framer-motion";
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
 import { WhatsAppButton } from "../components/layout/WhatsAppButton";
