@@ -4,7 +4,7 @@ export const BARBER_DATA = {
   description: "Na Didicos Barber, não apenas cortamos cabelo e fazemos a barba. Proporcionamos um momento de cuidado, relaxamento e estilo para o homem moderno que não abre mão da excelência.",
   
   // Centralized configurations
-  bookingUrl: "", 
+  bookingUrl: "https://sites.appbarber.com.br/didicosbarber-tml7", 
   whatsappUrl: "https://api.whatsapp.com/message/EGIQSS2TBNWXH1?autoload=1&app_absent=0",
   instagramUrl: "https://www.instagram.com/didicosbarber/",
 
