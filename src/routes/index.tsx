@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
 import { WhatsAppButton } from "../components/layout/WhatsAppButton";
@@ -8,6 +8,7 @@ import { About } from "../components/sections/About";
 import { Units } from "../components/sections/Units";
 import { Services } from "../components/sections/Services";
 import { Testimonials } from "../components/sections/Testimonials";
+import { SplashScreen } from "../components/ui/SplashScreen";
 import { BARBER_DATA } from "../config/barber-data";
 import { toast } from "sonner";
 
