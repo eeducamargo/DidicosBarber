@@ -1,6 +1,8 @@
 import { BARBER_DATA } from "../../config/barber-data";
 import { Instagram, MessageCircle, MapPin, Calendar } from "lucide-react";
 import logoAsset from "../../assets/logo-didicos.png.asset.json";
+import { useState } from "react";
+import { BookingModal } from "../ui/BookingModal";
 
 export function Footer() {
   return (
