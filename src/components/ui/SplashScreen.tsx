@@ -13,7 +13,7 @@ export function SplashScreen({ onComplete }: { onComplete?: () => void }) {
   }, []);
 
   return (
-    <AnimatePresence onExitComplete={onComplete}>
+    <AnimatePresence onExitComplete={onComplete ?? (() => {})}>
       {isVisible && (
         <motion.div
           initial={{ opacity: 1 }}
