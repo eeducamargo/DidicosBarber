@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { Calendar } from "lucide-react";
 import { useState } from "react";
 import { BookingModal } from "../ui/BookingModal";
+import ambCartao from "@/assets/amb-cartao.png.asset.json";
+
 
 export function CTA() {
   const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
